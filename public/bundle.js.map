@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;AAAA,CAAAA,cAAA,GAAAC,OAAO,CAACC,KAAK,cAAAF,cAAA,cAAAA,cAAA,GAAI,CAAC,CAAC,C","sources":["webpack://novotemplate/./server.js"],"sourcesContent":["element.index ?? -1;\r\n"],"names":["_element$index","element","index"],"sourceRoot":""}
