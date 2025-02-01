@@ -1,0 +1,35 @@
+<%- include('includes/head'); %>
+    <%- include('includes/nav'); %>
+
+
+        <h1 class="titulo">Agenda</h1>
+        <p class="paragrafo">Contatos logo abaixo</p>
+        <div class="row">
+            <%- include ('includes/messages')%>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Sobrenome</th>
+                    <th scope="col">Contato</th>
+                    <% if(user) { %>
+                        <th scope="col">Opcoes</th>
+                        <% } %>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>joao pedro</td>
+                    <td>mota</td>
+                    <td>64993140912</td>
+                    <% if(user) { %>
+                        <td><a href="">Editar</a> | <a href="">Excluir</a></td>
+                        <% } %>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        <%- include('includes/footer'); %>
